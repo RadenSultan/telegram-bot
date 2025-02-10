@@ -13,8 +13,8 @@ from reminder import set_reminder
 
 
 # Pastikan path sesuai dengan lokasi file .env
-env_path = r"D:\Coding\.env"
-load_dotenv(env_path)
+env_path = r"D:\Coding\telegram-bot\.env"
+load_dotenv(dotenv_path=r"D:\Coding\telegram-bot\.env")
 
 TOKEN = os.getenv("TOKEN")  # Ambil token dengan benar
 if not TOKEN:
